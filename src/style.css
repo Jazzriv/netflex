@@ -1,0 +1,41 @@
+/*
+Par : Jean-Loup
+Style du message d'accueil
+Créé : 19/11/16
+Dernière modification : 20/11/16
+*/
+html,body, #wrapper, #table{
+	margin : 0;
+	padding : 0;
+	border : 0;
+	
+}
+#overlay{
+	width : 100%;
+	height : 100%;
+	background-color: white;
+	z-index : 10;
+	opacity : 1;
+	position : fixed;
+}
+#wrapper{
+	background-color: #333333;
+	box-shadow : 0px 5px 25px grey;
+}
+#table{
+	margin-top : 15%;
+}
+#hello_logo{
+	vertical-align: middle;
+	text-align : center;
+}
+img{
+	width : 50%;
+}
+#message{
+	text-align : center;
+	font-size: 5em;
+	color : lightgrey;
+	font-family: arial;
+	font-style: italic;
+}

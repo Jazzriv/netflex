@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+Par : Jean-Loup
+Interface utilisateur
+Créé : 19/11/16
+Dernière modification : 20/11/16
+-->
+<HTML>
+	<HEAD>
+		<title>Netflex</title>
+		<meta charset = "utf-8"/>
+		<link rel = "stylesheet" type="text/css" href="style_bright.css">
+	</HEAD>
+	<HEADER id = "topbar">
+			<input type="button" onclick = "location.href = 'home.html' " id = "logo"/>
+			<SPAN id = "searchform">
+				<input type = "button" name = "themes" value = "Thèmes" id = "theme_button"/>
+				<input type = "text" name="searchbar" placeholder = "Cherchez une série ..." id = "searchbar"/>
+				<input type = "submit" value="" id="search_button" />
+			</SPAN>
+			<button type = "button" name = "toggle" value = "" id = "toggle_navbar"/>
+
+	</HEADER>
+	<BODY>
+			<DIV id = "theme_div">
+				<table id = "themes_table">
+				<tr>
+					<td>
+						<input type = "checkbox" name = "theme_1" value = "theme_1"/>
+					</td>
+					<td>
+						PLACEHOLDER THEME 1
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "checkbox" name = "theme_2" value = "theme_2"/>
+					</td>
+					<td>
+						PLACEHOLDER THEME 2
+					</td>
+				</tr>
+				</table>
+				
+				<br/>
+			</DIV>
+		<ASIDE id = "navbar">
+			<SECTION id="nav_element">
+				<a href = "profile.html"><img src = "../img/user_image_PLACEHOLDER.png" id = "user_image"/> PLACEHOLDER NAME</a>
+			</SECTION>
+			<SECTION id = "nav_element">
+				Journal <br/>
+				<table id = "news_table">
+					<tr>
+						<td id = "nav_section"> EXAMPLE 1 </td>
+					</tr>
+					<tr>
+						<td id = "nav_section"> EXAMPLE 2 </td>
+					</tr>
+					<tr>
+						<td id = "nav_section"> EXAMPLE 3 </td>
+					</tr>
+				</table>
+			</SECTION>
+			<SECTION id = "nav_element">
+				Planning <br/>
+
+			</SECTION>
+		</ASIDE>
+		<script src="jquery-3.1.1.js"></script>
+		<script src="jquery-ui.js"></script>
+		<script src = "user_ui.js"></script>
+	</BODY>
+</HTML>

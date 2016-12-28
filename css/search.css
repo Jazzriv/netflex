@@ -1,0 +1,56 @@
+/* =============================
+
+GENERAL STYLE
+
+============================= */
+
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: #eee;
+}
+
+form{
+    width:300px;
+    height: auto;
+    margin:30px auto;
+    border-radius: 20px;
+    padding:50px;
+}
+
+input{
+    margin:10px;
+    padding:15px;
+    display:block;
+}
+
+h1{
+    display: inline-block;
+}
+
+/* =============================
+
+HEADER
+
+============================= */
+
+#logo{
+    overflow:hidden;
+    border : none;
+    margin:auto;
+}
+
+.title, .logo{
+    display: inline-block;
+}
+
+/* =============================
+
+CONTENT
+
+============================= */

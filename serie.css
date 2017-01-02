@@ -1,0 +1,30 @@
+/* ====================
+
+SERIE OVERVIEW STYLE
+
+==================== */
+
+.resume{
+	font-style: italic;
+	text-align: justify;
+}
+
+/* ====================
+
+NUMBER OF SEASONS & EPISODES STYLE
+
+==================== */
+
+span.important{
+	font-weight: bold;
+	margin:10px 15px 10px 0px;
+}
+
+
+
+.episodes_nav{
+	margin-top: 50px;
+	border-top:1px dashed #000;
+	padding:20px 0px;
+}
+
